@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="blue">
+    <center>
+   <u><h1><font color="black">Student Registration Form</font></h1></u>
+   <form action="form.html" method="post">
+    <table>
+        <tr>
+            <td><font color="white">FIRST NAME</font> </td>
+            <td><input type="text"pattern="[A-Za-z]{2,30}" required ></td>
+            <td><font color="white">(max 30 characters a-z and A-z)</font></td>
+        </tr>
+      <tr>
+        <td> <font color="white">LAST NAME</font></td>
+        <td><input type="text" pattern="[A-Za-z]{2,30}" required ></td>
+        <td><font color="white">(max 30 characters a-z and A-z)</font></td>
+      </tr>
+      <tr>
+        <td><font color="white">DATE OF BIRTH</font></td>
+        <td><input type="datetime-local"></td>
+      </tr>
+      <tr>
+        <td><font color="white">EMAIL ID</font></td>
+        <td><input type="email"></td>
+      </tr>
+      <tr>
+        <td><font color="white">MOBILE NUMBER</font></td>
+        <td><input type="tel" pattern="[0-9]{0-9}" required ></td>
+        <td><font color="white">(10 digit number)</font></td>
+      </tr>
+      <tr>
+        <td><font color="white">GENDER</font></td>
+        <td><input type="radio" name="gender"><font color="white">Male</font> 
+            <input type="radio" name="gender"><font color="white"> Female</font>
+        </td>
+      </tr>
+      <tr>
+        <td><font color="white">ADDRESS</font></td>
+        <td><textarea name="" id="" cols="30" rows="10"></textarea></td>
+      </tr>
+      <tr>
+        <td><font color="white">CITY</font></td>
+        <td><input type="text" pattern="[A-Za-z]{2,30}" required></td>
+        <td><font color="white">(max 30 characters a-z and A-z)</font></td>
+      </tr>
+      <tr>
+        <td><font color="white">PIN CODE</font></td>
+        <td><input type="tel" pattern="[0-9]{6}"></td>
+      </tr>
+      <tr>
+        <td><font color="white">STATE</font></td>
+        <td><input type="text" pattern="[A-Za-z]{2,30}"></td>
+        <td><font color="white">(max 30 characters a-z and A-z)</font></td>
+      </tr>
+     <tr>
+        <td><font color="white">COUNTRY</font></td>
+        <td><input type="text" value="India"></td>
+     </tr>
+     <tr>
+        <td><font color="white">HOBBIES</font></td>
+        <td><input type="checkbox"><font  color="white">Drawing</font>
+            <input type="checkbox"><font  color="white">Singing</font>
+            <input type="checkbox"><font  color="white">Dancing</font>
+            <input type="checkbox"><font  color="white">Skecting</font><br>
+            <input type="checkbox"><font  color="white">others</font>
+            <input type="text">
+        </td>
+     </tr>
+     <tr>
+        <td><font color="white">QUALIFICATION</font></td>
+        <td><font color="white">SE.NO.Eamination</font></td>
+        <td><font color="white">Board</font></td>
+        <td><font color="white">Percentage</font></td>
+        <td><font color="white">Year of Passing</font></td>
+     </tr>
+     <tr>
+        <td></td>
+        <td><font color="white">1  class X</font></td>
+        <td><input type="text" pattern="[0-9]{20}"></td>
+        <td><input type="text"></td>
+        <td><input type="text"></td>
+     </tr>
+     <tr>
+        <td></td>
+        <td><font color="white">2 class XII</font></td>
+        <td><input type="text"  pattern="[0-9]{20}"></td>
+        <td><input type="text"></td>
+        <td><input type="text"></td>
+     </tr>
+     <tr>
+        <td></td>
+        <td><font color="white">3 Graduation</font></td>
+        <td><input type="text"  pattern="[0-9]{20}"></td>
+        <td><input type="text"></td>
+        <td><input type="text"></td>
+     </tr>
+     <tr>
+        <td></td>
+        <td><font color="white">4 Masters</font></td>
+        <td><input type="text"  pattern="[0-9]{20}"></td>
+        <td><input type="text"></td>
+        <td><input type="text"></td>
+     </tr>
+<tr>
+    <td></td>
+    <td></td>
+    <td><font color="white">(20 char max)</font></td>
+    <td><font color="white">(upto 2 decimal)</font></td>
+</tr>
+<tr>
+    <td><font color="white">Courses</font></td><br>
+    <td><font color="white">APPLIED</font></td>
+    <td>
+         <input type="radio"><font color="white">BCA</font> 
+         <input type="radio"><font color="white">B.COM </font>
+         <input type="radio"><font color="white">B sc</font> 
+         <input type="radio"><font color="white">B.A</font>
+
+
+    </td>
+</tr>
+
+
+      <tr>
+        <td><input type="submit">
+        <input type="reset"></td>
+      </tr>
+    </table>
+   </form>
+    </center>
+</body>
+</html>
